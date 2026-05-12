@@ -1,0 +1,36 @@
+{
+  "name": "jeeb-pay",
+  "version": "1.0.0",
+  "description": "JEEB PAY - Digital Wallet & Financial Services",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "build:android": "eas build -p android --profile production",
+    "build:android-preview": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "expo": "^49.0.0",
+    "expo-status-bar": "^1.6.0",
+    "expo-camera": "^13.4.0",
+    "expo-image-picker": "^14.3.0",
+    "firebase": "^10.5.0",
+    "lucide-react": "^0.263.1",
+    "react-native-safe-area-context": "^4.7.2",
+    "react-native-screens": "^3.26.0",
+    "react-navigation": "^6.1.10",
+    "react-navigation-bottom-tabs": "^6.5.11",
+    "react-navigation-native": "^6.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0"
+  },
+  "private": true
+}
